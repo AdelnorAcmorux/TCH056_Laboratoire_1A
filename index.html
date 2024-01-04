@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../projet/style.css">
+    <title> Page personelle de Adelnor Acmorux </title>
+</head>
+
+<body>
+    <a href="https://github.com/AdelnorAcmorux" target="_blank">
+        <img src="../projet/images/DSC_0027.JPG" , alt="photo de profil" width="300" ,
+            height="400">
+    </a>
+
+    <h1> L&eacute;onard Marcoux </h1>
+    <p> Jeune &eacute;tudiant alcoolique</p>
+
+    <h2> Horraire pour la session Hivers 2024</h2>
+    <table>
+        <caption> Grille horraire</caption>
+        <tr>
+            <th>-</th>
+            <th>Lundi</th>
+            <th>Mardi</th>
+            <th>Mercredi</th>
+            <th>Jeudi</th>
+            <th>Vendredi</th>
+        </tr>
+        <tr>
+            <th>AM</th>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch055"> TCH055</a> </td>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch111"> TCH111</a> </td>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch057"> TCH057</a> </td>
+            <td rowspan="2"> <a href="https://www.etsmtl.ca/etudes/cours/tch056"> TCH056</a> </td>
+            <td rowspan="2"> <a href="https://www.etsmtl.ca/etudes/cours/tch056"> TCH056</a> </td>
+        </tr>
+        <tr>
+            <th>PM</th>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch057"> TCH057</a> </td>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch055"> TCH055</a> </td>
+            <td> <a href="https://www.etsmtl.ca/etudes/cours/tch111"> TCH111</a> </td>
+    
+        </tr>
+        <tr>
+            <th>Soir</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+    
+        </tr>
+    </table>
+
+    <br>
+
+    <h2> Int&eacute;r&ecirc;ts</h2>
+    <ul>
+        <li>GYM</li>
+        <li>MUSIC</li>
+    </ul>
+
+    <h3> Contact</h3>
+    <ol>
+    <li><b><i>Courriel:</b></i> <a href="mailto:leonard.marcoux.1@ens.etsmtl.ca">leonard.marcoux.1@ens.etsmtl.ca </a> </li>
+    <li> <b><i>Github:</b></i><a href="https://github.com/AdelnorAcmorux" target="_blank"> https://github.com/AdelnorAcmorux </a> </li>
+    </ol>
+
+    <hr>
+
+    <form id="myForm">
+        <h2>&Eacute;crivez-moi</h2>
+
+            <label for="fname"><b>Prenom:</b></label><br>
+            <input type="text" id="fname" name="fname" placeholder="Maurice"><br>
+            <label for="lname"><b>Nom de famille:</b></label><br>
+            <input type="text" id="lname" name="lname" placeholder="Tremblay">
+<br><br>
+            <input type="submit" value="Soumettre">
+            <input type="button" onclick="erase()" value="Effacer">
+<br><br>
+            <label for="message"><b>Message:</b></label><br>
+            <textarea id="message" name="message" rows="10" cols="25"> </textarea>
+    </form>
+
+<script>
+    function erase() {
+        document.getElementById("myForm").reset();
+    }
+</script>
+  
+    <a id="scroll-to-top" href="#top">Retour au d&eacute;but</a>
+
+</body>
+
+</html>
